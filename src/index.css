@@ -1,0 +1,142 @@
+/* KaamWala Custom Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+
+.hero-section {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 70vh;
+}
+
+.primary-color {
+  background-color: #667eea !important;
+  border-color: #667eea !important;
+}
+
+.primary-color:hover {
+  background-color: #5a67d8 !important;
+  border-color: #5a67d8 !important;
+}
+
+.card-hover {
+  transition: all 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2) !important;
+}
+
+/* Navbar Custom */
+.navbar-light .navbar-nav .nav-link {
+  font-weight: 500;
+}
+
+/* Loading Spinner Fix */
+.spinner-border-sm {
+  width: 1rem;
+  height: 1rem;
+}
+
+/* Responsive Fixes */
+@media (max-width: 768px) {
+  .hero-section {
+    min-height: 60vh;
+    padding: 2rem 0;
+  }
+}
+/* Background */
+.login-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  display: flex;
+  align-items: center;
+}
+
+/* Card Styling */
+.card {
+  backdrop-filter: blur(12px);
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 20px !important;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2) !important;
+}
+
+/* Heading */
+h1 {
+  font-size: 1.6rem;
+  letter-spacing: 0.5px;
+}
+
+/* Inputs */
+.form-control {
+  border-radius: 10px !important;
+  padding: 12px;
+  border: 1px solid #ddd;
+  transition: all 0.25s ease;
+}
+
+.form-control:focus {
+  border-color: #667eea;
+  box-shadow: 0 0 0 0.15rem rgba(102, 126, 234, 0.25);
+}
+
+/* Input Group */
+.input-group-text {
+  background: #f5f7ff;
+  border-radius: 10px 0 0 10px !important;
+  border: 1px solid #ddd;
+}
+
+/* Button */
+.btn-primary {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  border: none;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(135deg, #5a6fd8, #6a3eb3);
+  transform: scale(1.02);
+}
+
+/* Checkbox */
+.form-check-input:checked {
+  background-color: #667eea;
+  border-color: #667eea;
+}
+
+/* Links */
+a {
+  transition: all 0.2s ease;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #5a6fd8 !important;
+}
+
+/* Error message */
+.invalid-feedback {
+  font-size: 0.85rem;
+}
+
+/* Responsive */
+@media (max-width: 576px) {
+  .card-body {
+    padding: 30px 20px !important;
+  }
+}
