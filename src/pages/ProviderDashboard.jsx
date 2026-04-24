@@ -24,7 +24,7 @@ const ProviderDashboard = () => {
                 <p className="text-muted mb-0">Find jobs & manage bids</p>
               </div>
               <div className="d-flex gap-2">
-                <Link to="/profile" className="btn btn-outline-secondary">
+                <Link to="/provider/profile" className="btn btn-outline-secondary">
                   <i className="bi bi-person me-2"></i>Profile
                 </Link>
                 <button className="btn btn-success">

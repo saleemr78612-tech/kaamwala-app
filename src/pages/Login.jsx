@@ -43,12 +43,12 @@ const Login = () => {
       setLoading(true);
       
       // Simulate API call
-      setTimeout(() => {
-        setLoading(false);
-        // Dummy login success - redirect to dashboard
-        alert('Login successful! (Demo)');
-        navigate('/customer/dashboard');
-      }, 2000);
+  setTimeout(() => {
+  setLoading(false);
+  localStorage.setItem('token', 'user123');  // ✅ ADD THIS
+  alert('Login successful! (Demo)');
+  navigate('/customer/dashboard');
+}, 2000);
     }
   };
 
